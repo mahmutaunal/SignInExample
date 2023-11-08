@@ -1,16 +1,24 @@
-# signin_example
+# Sign In Example
 
-A new Flutter project.
+This is the source code for a simple web application where the user can enter their first name, last name, and username. As the user fills out all three fields, a progress bar animates along the top of the sign-in area. When all three fields are filled in, the progress bar turns green, spanning the full width of the sign-in area, and the "Sign up" button becomes enabled. Clicking the "Sign up" button causes a welcome screen to animate in from the bottom of the screen.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- User-friendly interface
+- Progress bar appears as you fill in the fields for first name, last name, and username.
+- When all fields are filled, the progress bar turns green and spans the full width.
+- "Sign up" button is enabled and clickable.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+To run this application in your local Flutter development environment, follow these steps:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. [Install Flutter](https://flutter.dev/docs/get-started/install).
+2. Clone this repository: git clone https://github.com/yourusername/sign-in-web-app.git
+3. Navigate to the project directory: cd sign-in-web-app
+4. Install the required packages by running the following command: flutter pub get
+5. Run the application by executing the following command: flutter run
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
